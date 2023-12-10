@@ -1,4 +1,4 @@
-export default function IndexPage(){
+export default function LoginPage(){
     return(
     <div>
       <div className='flex justify-center items-center h-screen bg-blue-600'>
