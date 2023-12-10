@@ -1,13 +1,14 @@
-import {Route, Routes} from "react-router-dom";
-import './App.css'
-import LoginPage from "./pages/LoginPage";
+//import {Route, Routes} from "react-router-dom";
+//import LoginPage from "./pages/LoginPage";
+import Register from "./Register";
 
 function App() {
 
   return (
-    <Routes>
-      <Route index element={<LoginPage></LoginPage>}></Route>
-    </Routes>
+    <Register></Register>
+    // <Routes>
+    //   <Route index element={<LoginPage></LoginPage>}></Route>
+    // </Routes>
   )
 }
 
